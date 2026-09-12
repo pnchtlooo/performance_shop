@@ -1,0 +1,484 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1789192250308,53,[1x] POST /api/auth/login,200,OK,Авторизация 1-1,text,true,,350,250,1,2,http://localhost/api/auth/login,53,0,23
+1789192255947,3029,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,3029,0,1
+1789192263154,3046,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3046,0,0
+1789192277806,2538,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1492,320,1,1,http://localhost/api/reports/sales,2538,0,0
+1789192282468,15,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,408,317,1,1,http://localhost/api/products/3,15,0,0
+1789192298538,28,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,360,315,1,1,http://localhost/api/orders/6,28,0,0
+1789192317032,5,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,5,0,2
+1789192328322,19,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,18,0,0
+1789192346134,26,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,26,0,0
+1789192355959,42,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,227,363,1,1,http://localhost/api/orders,42,0,0
+1789192361959,31,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,31,0,0
+1789192366806,13,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,372,317,1,1,http://localhost/api/products/7,13,0,0
+1789192378123,3009,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,3009,0,3
+1789192386971,29,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,29,0,0
+1789192391393,14,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,14,0,0
+1789192396889,30,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,227,363,1,1,http://localhost/api/orders,30,0,0
+1789192400559,15,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/1,14,0,0
+1789192418885,2526,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1500,320,1,1,http://localhost/api/reports/sales,2526,0,0
+1789192438123,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,0
+1789192455579,3008,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3008,0,2
+1789192471068,22,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,22,0,0
+1789192488282,28,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,405,317,1,1,http://localhost/api/products/2,28,0,0
+1789192491523,11,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,364,316,1,1,http://localhost/api/orders/10,11,0,0
+1789192509221,6017,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,6017,0,0
+1789192522961,5,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,5,0,2
+1789192529615,31,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,31,0,0
+1789192545020,23,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,23,0,0
+1789192552267,36,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,227,363,1,1,http://localhost/api/orders,36,0,0
+1789192563633,3020,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3020,0,0
+1789192578829,20,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,20,0,0
+1789192586550,2515,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1500,320,1,1,http://localhost/api/reports/sales,2515,0,2
+1789192604150,29,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,29,0,0
+1789192610998,20,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,20,0,0
+1789192624682,3020,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3020,0,0
+1789192637997,26,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,26,0,0
+1789192643784,2530,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1500,320,1,1,http://localhost/api/reports/sales,2530,0,0
+1789192659793,12,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,417,318,1,1,http://localhost/api/products/10,12,0,2
+1789192664172,6,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,6,0,0
+1789192666703,15,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,15,0,0
+1789192670919,11,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,351,315,1,1,http://localhost/api/orders/8,11,0,0
+1789192688374,5022,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,5022,0,0
+1789192711937,2531,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1501,320,1,1,http://localhost/api/reports/sales,2531,0,0
+1789192725119,15,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,15,0,2
+1789192740272,19,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,19,0,0
+1789192744335,3005,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3005,0,0
+1789192754319,19,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,364,316,1,1,http://localhost/api/orders/10,19,0,0
+1789192760539,4021,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,4021,0,0
+1789192782471,17,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,17,0,0
+1789192795255,14,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,417,318,1,1,http://localhost/api/products/10,14,0,3
+1789192807842,19,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,19,0,0
+1789192812623,11,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,10,0,0
+1789192820979,29,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,408,317,1,1,http://localhost/api/products/3,29,0,0
+1789192830624,31,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,31,0,0
+1789192844541,28,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,28,0,0
+1789192858601,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,2
+1789192865227,29,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/7,29,0,0
+1789192870344,3021,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3021,0,0
+1789192878621,10,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,10,0,0
+1789192892716,34,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,34,0,0
+1789192905954,2532,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1501,320,1,1,http://localhost/api/reports/sales,2532,0,0
+1789192921472,5007,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,5007,0,2
+1789192933884,19,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,19,0,0
+1789192948842,30,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,30,0,0
+1789192965841,3021,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,3021,0,0
+1789192985439,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,3
+1789192988316,2516,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1501,320,1,1,http://localhost/api/reports/sales,2516,0,0
+1789193002716,27,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,27,0,0
+1789193006544,14,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,373,317,1,1,http://localhost/api/products/6,14,0,0
+1789193010960,16,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,16,0,0
+1789193013241,3006,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3005,0,0
+1789193027446,25,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,364,316,1,1,http://localhost/api/orders/10,25,0,0
+1789193042711,17,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,17,0,0
+1789193054385,6,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,6,0,2
+1789193066317,17,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,392,317,1,1,http://localhost/api/products/1,17,0,0
+1789193083588,30,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,30,0,0
+1789193101048,3021,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3021,0,0
+1789193121761,2518,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1500,320,1,1,http://localhost/api/reports/sales,2517,0,2
+1789193127941,6006,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,6006,0,0
+1789193136217,14,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,14,0,0
+1789193139545,17,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,17,0,0
+1789193153240,31,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/7,31,0,0
+1789193155389,7006,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,7006,0,0
+1789193177697,27,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,358,315,1,1,http://localhost/api/orders/3,27,0,0
+1789193186121,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,2
+1789193190649,3006,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3006,0,0
+1789193211471,29,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,29,0,0
+1789193228364,30,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,30,0,0
+1789193243417,7,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,7,0,0
+1789193253427,2517,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1500,320,1,1,http://localhost/api/reports/sales,2517,0,2
+1789193262173,28,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,417,318,1,1,http://localhost/api/products/10,28,0,0
+1789193273301,28,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,229,363,1,1,http://localhost/api/orders,28,0,0
+1789193281672,30,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,30,0,0
+1789193288373,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,0
+1789193293182,5006,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,5006,0,0
+1789193316237,13,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,366,315,1,1,http://localhost/api/orders/2,13,0,2
+1789193332769,28,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,28,0,0
+1789193337537,6,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,6,0,0
+1789193344198,2531,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1499,320,1,1,http://localhost/api/reports/sales,2531,0,0
+1789193361094,28,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,405,317,1,1,http://localhost/api/products/2,28,0,0
+1789193364291,24,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,24,0,0
+1789193373890,3009,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3009,0,0
+1789193379268,3008,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3008,0,3
+1789193388808,28,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,28,0,0
+1789193396132,28,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,373,317,1,1,http://localhost/api/products/6,28,0,0
+1789193401027,5,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,5,0,0
+1789193412913,31,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,364,1,1,http://localhost/api/orders,31,0,0
+1789193424370,2532,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1493,320,1,1,http://localhost/api/reports/sales,2532,0,0
+1789193431440,15,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,358,315,1,1,http://localhost/api/orders/3,15,0,0
+1789193436765,7016,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,7016,0,0
+1789193454101,16,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,16,0,2
+1789193470980,20,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,20,0,0
+1789193482620,17,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,366,315,1,1,http://localhost/api/orders/2,17,0,0
+1789193492908,3018,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3018,0,0
+1789193499749,3,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,3,0,0
+1789193511822,11,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,10,0,0
+1789193526241,26,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,26,0,2
+1789193541171,3020,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,3020,0,0
+1789193557868,29,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,29,0,0
+1789193568940,21,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,21,0,0
+1789193581773,28,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,401,317,1,1,http://localhost/api/products/9,28,0,0
+1789193592459,2518,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1503,320,1,1,http://localhost/api/reports/sales,2518,0,2
+1789193601494,2522,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1503,320,1,1,http://localhost/api/reports/sales,2522,0,0
+1789193617201,6021,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,6021,0,0
+1789193634809,39,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,38,0,0
+1789193645878,16,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/7,16,0,0
+1789193658536,15,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,15,0,2
+1789193676552,19,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,19,0,0
+1789193689787,38,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,227,363,1,1,http://localhost/api/orders,38,0,0
+1789193705500,3021,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3021,0,0
+1789193712328,14,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,393,317,1,1,http://localhost/api/products/5,14,0,0
+1789193720038,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,3
+1789193731204,22,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,22,0,0
+1789193737610,2528,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1503,320,1,1,http://localhost/api/reports/sales,2528,0,0
+1789193746017,9,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,9,0,0
+1789193764743,3021,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3021,0,0
+1789193780919,15,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,15,0,3
+1789193792140,3021,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,3021,0,0
+1789193804923,29,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,29,0,0
+1789193816653,40,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,40,0,0
+1789193831140,30,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,366,315,1,1,http://localhost/api/orders/2,30,0,0
+1789193837949,29,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,372,317,1,1,http://localhost/api/products/7,29,0,0
+1789193850368,14,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,14,0,3
+1789193860560,3021,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3020,0,0
+1789193880998,18,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,18,0,0
+1789193885509,7006,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,7006,0,0
+1789193906889,20,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,20,0,0
+1789193918207,21,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,364,1,1,http://localhost/api/orders,21,0,1
+1789193930830,24,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,381,317,1,1,http://localhost/api/products/8,24,0,0
+1789193943114,29,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/7,29,0,0
+1789193956495,29,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,29,0,0
+1789193969970,2534,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1509,320,1,1,http://localhost/api/reports/sales,2534,0,0
+1789193977268,25,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,24,0,0
+1789193989921,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,3
+1789194007439,2525,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1510,320,1,1,http://localhost/api/reports/sales,2525,0,0
+1789194025391,4020,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,4020,0,0
+1789194035089,29,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,366,315,1,1,http://localhost/api/orders/2,28,0,0
+1789194038389,3003,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3003,0,0
+1789194045544,12,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,12,0,0
+1789194048402,12,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,412,317,1,1,http://localhost/api/products/4,12,0,0
+1789194059118,13,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,13,0,2
+1789194072598,10,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,10,0,0
+1789194084451,3020,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3020,0,0
+1789194102443,27,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,27,0,0
+1789194114835,4020,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,4020,0,0
+1789194135071,2514,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1510,320,1,1,http://localhost/api/reports/sales,2514,0,1
+1789194143725,26,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/7,26,0,0
+1789194162355,25,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,405,317,1,1,http://localhost/api/products/2,25,0,0
+1789194181306,19,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,19,0,0
+1789194187009,29,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,29,0,0
+1789194190615,25,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,25,0,0
+1789194201811,5,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,5,0,2
+1789194208923,6,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,6,0,0
+1789194212113,3006,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3006,0,0
+1789194223176,6020,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,6020,0,0
+1789194235362,26,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,26,0,0
+1789194249812,20,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,20,0,0
+1789194252453,5,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,5,0,0
+1789194261379,28,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,417,318,1,1,http://localhost/api/products/10,28,0,0
+1789194264461,12,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,12,0,2
+1789194277264,31,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,340,315,1,1,http://localhost/api/orders/5,31,0,0
+1789194285312,2526,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1510,320,1,1,http://localhost/api/reports/sales,2526,0,0
+1789194301228,29,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/1,29,0,0
+1789194312289,30,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,29,0,0
+1789194328230,6,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,6,0,3
+1789194331983,3005,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3005,0,0
+1789194349796,5019,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,5018,0,0
+1789194358428,10,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,417,318,1,1,http://localhost/api/products/10,10,0,0
+1789194375272,20,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,20,0,0
+1789194383959,30,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,30,0,0
+1789194390497,24,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,24,0,1
+1789194396644,2518,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1502,320,1,1,http://localhost/api/reports/sales,2518,0,0
+1789194401524,3006,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3005,0,0
+1789194422181,28,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,27,0,0
+1789194425751,4,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,4,0,0
+1789194441565,26,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,26,0,0
+1789194445140,15,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,352,315,1,1,http://localhost/api/orders/7,15,0,0
+1789194453924,4007,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,4007,0,3
+1789194465201,2532,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1502,320,1,1,http://localhost/api/reports/sales,2532,0,0
+1789194477333,29,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,417,318,1,1,http://localhost/api/products/10,29,0,0
+1789194481453,4,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,4,0,0
+1789194499643,38,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,227,363,1,1,http://localhost/api/orders,38,0,0
+1789194504787,28,[1x] GET /api/orders/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,358,315,1,1,http://localhost/api/orders/3,28,0,0
+1789194520565,13,[1x] GET /api/products,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,2313,315,1,1,http://localhost/api/products,13,0,2
+1789194531438,34,[1x] POST /api/orders,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,228,363,1,1,http://localhost/api/orders,34,0,0
+1789194548621,2520,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1501,320,1,1,http://localhost/api/reports/sales,2520,0,0
+1789194562855,20,[1x] GET /api/auth/profile,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,319,1,1,http://localhost/api/auth/profile,20,0,0
+1789194566313,4,[1x] GET /api/health,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,233,313,1,1,http://localhost/api/health,4,0,0
+1789194573966,26,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,373,317,1,1,http://localhost/api/products/6,26,0,0
+1789194591147,14,[1x] POST /api/auth/login,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,350,383,1,1,http://localhost/api/auth/login,14,0,1
+1789194596569,5020,[1x] POST /api/reports/generate,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,275,343,1,1,http://localhost/api/reports/generate,5020,0,0
+1789194614004,3021,[1x] GET /api/reports/slow,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,257,319,1,1,http://localhost/api/reports/slow,3021,0,0
+1789194625602,27,[1x] GET /api/products/{id},200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,405,317,1,1,http://localhost/api/products/2,27,0,0
+1789194643666,2532,[1x] GET /api/reports/sales,200,OK,Этап 1 — 1x (базовая пиковая нагрузка) 2-1,text,true,,1501,320,1,1,http://localhost/api/reports/sales,2532,0,0
+1789194660127,18,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,228,258,2,2,http://localhost/api/orders,18,0,2
+1789194662860,3005,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,275,238,2,2,http://localhost/api/reports/generate,3005,0,0
+1789194668624,2518,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,1500,215,2,2,http://localhost/api/reports/sales,2517,0,1
+1789194681512,31,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,2313,210,2,2,http://localhost/api/products,31,0,0
+1789194691169,19,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,233,208,2,2,http://localhost/api/health,19,0,0
+1789194685113,7022,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,275,238,2,2,http://localhost/api/reports/generate,7022,0,0
+1789194695398,11,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,392,212,2,2,http://localhost/api/products/1,11,0,0
+1789194696275,3006,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,257,214,2,2,http://localhost/api/reports/slow,3006,0,0
+1789194710669,29,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,2313,210,2,2,http://localhost/api/products,29,0,0
+1789194713556,28,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,350,278,2,2,http://localhost/api/auth/login,28,0,0
+1789194716891,36,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,228,258,2,2,http://localhost/api/orders,36,0,0
+1789194716669,2516,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,1500,215,2,2,http://localhost/api/reports/sales,2516,0,0
+1789194721949,20,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-1,text,false,,190,214,2,2,http://localhost/api/auth/profile,20,0,0
+1789194728834,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-2,text,false,,190,214,2,2,http://localhost/api/auth/profile,5,0,2
+1789194733066,3006,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,257,214,2,2,http://localhost/api/reports/slow,3006,0,0
+1789194736832,3,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,233,208,2,2,http://localhost/api/health,3,0,1
+1789194751344,13,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,393,212,2,2,http://localhost/api/products/5,13,0,0
+1789194752696,28,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,351,210,2,2,http://localhost/api/orders/4,28,0,0
+1789194754414,14,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,340,210,2,2,http://localhost/api/orders/5,14,0,0
+1789194761988,28,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,405,212,2,2,http://localhost/api/products/2,28,0,0
+1789194763716,24,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,350,278,2,2,http://localhost/api/auth/login,24,0,0
+1789194769526,40,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,228,258,2,2,http://localhost/api/orders,40,0,0
+1789194773022,10,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,233,208,2,2,http://localhost/api/health,10,0,0
+1789194778564,40,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,227,258,2,2,http://localhost/api/orders,40,0,0
+1789194786040,21,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-2,text,false,,190,214,2,2,http://localhost/api/auth/profile,21,0,0
+1789194788282,4021,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,275,238,2,2,http://localhost/api/reports/generate,4021,0,0
+1789194792815,5,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,233,208,2,2,http://localhost/api/health,5,0,2
+1789194799382,2518,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,1490,215,2,2,http://localhost/api/reports/sales,2518,0,2
+1789194798480,4021,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,275,238,2,2,http://localhost/api/reports/generate,4021,0,0
+1789194805796,2517,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,1490,215,2,2,http://localhost/api/reports/sales,2517,0,0
+1789194811695,3005,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,257,214,2,2,http://localhost/api/reports/slow,3005,0,0
+1789194818356,31,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,350,278,2,2,http://localhost/api/auth/login,30,0,0
+1789194829514,28,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,392,212,2,2,http://localhost/api/products/1,28,0,0
+1789194832353,29,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,351,210,2,2,http://localhost/api/orders/8,29,0,0
+1789194833199,3005,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,257,214,2,2,http://localhost/api/reports/slow,3005,0,0
+1789194842430,36,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,340,210,2,2,http://localhost/api/orders/5,36,0,0
+1789194849640,17,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,2313,210,2,2,http://localhost/api/products,17,0,0
+1789194856666,26,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,2313,210,2,2,http://localhost/api/products,26,0,0
+1789194859247,16,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,350,278,2,2,http://localhost/api/auth/login,16,0,3
+1789194868418,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-1,text,false,,190,214,2,2,http://localhost/api/auth/profile,5,0,2
+1789194870586,3022,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,257,214,2,2,http://localhost/api/reports/slow,3022,0,0
+1789194874904,26,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,373,212,2,2,http://localhost/api/products/6,26,0,0
+1789194886137,5020,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,275,238,2,2,http://localhost/api/reports/generate,5020,0,0
+1789194891207,38,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,228,258,2,2,http://localhost/api/orders,38,0,0
+1789194908909,29,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,350,278,2,2,http://localhost/api/auth/login,29,0,0
+1789194905448,4017,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,275,238,2,2,http://localhost/api/reports/generate,4017,0,0
+1789194912403,2517,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,1499,215,2,2,http://localhost/api/reports/sales,2517,0,0
+1789194913628,2516,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,1499,215,2,2,http://localhost/api/reports/sales,2516,0,0
+1789194928134,12,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,412,212,2,2,http://localhost/api/products/4,12,0,2
+1789194931858,11,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,2313,210,2,2,http://localhost/api/products,11,0,2
+1789194937874,26,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,2313,210,2,2,http://localhost/api/products,26,0,0
+1789194939974,3021,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,257,214,2,2,http://localhost/api/reports/slow,3021,0,0
+1789194946206,43,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,350,278,2,2,http://localhost/api/auth/login,43,0,0
+1789194957707,31,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,233,208,2,2,http://localhost/api/health,31,0,0
+1789194959539,25,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,352,210,2,2,http://localhost/api/orders/1,25,0,0
+1789194968659,26,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,351,210,2,2,http://localhost/api/orders/4,26,0,0
+1789194970834,23,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-2,text,false,,190,214,2,2,http://localhost/api/auth/profile,23,0,0
+1789194978086,20,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,233,208,2,2,http://localhost/api/health,20,0,0
+1789194982834,9,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,2313,210,2,2,http://localhost/api/products,9,0,0
+1789194986085,28,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,228,258,2,2,http://localhost/api/orders,28,0,0
+1789194990505,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-1,text,false,,190,214,2,2,http://localhost/api/auth/profile,4,0,0
+1789194994159,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-1,text,false,,190,214,2,2,http://localhost/api/auth/profile,4,0,2
+1789194994900,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-2,text,false,,190,214,2,2,http://localhost/api/auth/profile,4,0,1
+1789194999958,34,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,228,258,2,2,http://localhost/api/orders,34,0,0
+1789195010959,19,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,233,208,2,2,http://localhost/api/health,19,0,0
+1789195012470,6021,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,275,238,2,2,http://localhost/api/reports/generate,6021,0,0
+1789195021659,18,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,350,278,2,2,http://localhost/api/auth/login,18,0,0
+1789195022435,2514,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,1501,215,2,2,http://localhost/api/reports/sales,2514,0,0
+1789195028166,2531,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,1501,215,2,2,http://localhost/api/reports/sales,2531,0,0
+1789195036176,3019,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,257,214,2,2,http://localhost/api/reports/slow,3019,0,0
+1789195042374,18,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,233,208,2,2,http://localhost/api/health,18,0,0
+1789195048549,25,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,350,278,2,2,http://localhost/api/auth/login,25,0,0
+1789195056676,11,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,352,210,2,2,http://localhost/api/orders/1,11,0,2
+1789195050230,7031,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,275,238,2,2,http://localhost/api/reports/generate,7031,0,0
+1789195072760,9,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,417,213,2,2,http://localhost/api/products/10,9,0,1
+1789195074235,3026,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,257,214,2,2,http://localhost/api/reports/slow,3026,0,0
+1789195082675,28,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,381,212,2,2,http://localhost/api/products/8,28,0,0
+1789195083734,35,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,352,210,2,2,http://localhost/api/orders/7,35,0,0
+1789195098891,37,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,228,258,2,2,http://localhost/api/orders,37,0,0
+1789195100066,27,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,2313,210,2,2,http://localhost/api/products,27,0,0
+1789195105739,2537,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,1502,215,2,2,http://localhost/api/reports/sales,2537,0,0
+1789195116929,41,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,2313,210,2,2,http://localhost/api/products,41,0,0
+1789195118006,11,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,2313,210,2,2,http://localhost/api/products,11,0,2
+1789195124855,19,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,233,208,2,2,http://localhost/api/health,18,0,0
+1789195128005,10,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,350,278,2,2,http://localhost/api/auth/login,10,0,0
+1789195133898,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-1,text,false,,190,214,2,2,http://localhost/api/auth/profile,5,0,1
+1789195141193,5021,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,275,238,2,2,http://localhost/api/reports/generate,5021,0,0
+1789195149740,17,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,360,210,2,2,http://localhost/api/orders/6,17,0,0
+1789195152434,33,[1x] GET /api/orders/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,351,210,2,2,http://localhost/api/orders/8,33,0,0
+1789195154560,9,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,401,212,2,2,http://localhost/api/products/9,9,0,0
+1789195166276,27,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,228,258,2,2,http://localhost/api/orders,27,0,0
+1789195167883,28,[1x] POST /api/orders,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,228,258,2,2,http://localhost/api/orders,28,0,0
+1789195182536,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 2 — 2x (двукратный запас) 3-2,text,false,,190,214,2,2,http://localhost/api/auth/profile,4,0,2
+1789195183161,2529,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,1511,215,2,2,http://localhost/api/reports/sales,2529,0,0
+1789195191333,30,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,233,208,2,2,http://localhost/api/health,30,0,0
+1789195190917,3020,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,257,214,2,2,http://localhost/api/reports/slow,3020,0,0
+1789195200033,27,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,417,213,2,2,http://localhost/api/products/10,27,0,0
+1789195202870,2515,[1x] GET /api/reports/sales,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,1511,215,2,2,http://localhost/api/reports/sales,2515,0,0
+1789195207936,5005,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,275,238,2,2,http://localhost/api/reports/generate,5005,0,1
+1789195216634,6022,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,275,238,2,2,http://localhost/api/reports/generate,6022,0,0
+1789195228906,3022,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,257,214,2,2,http://localhost/api/reports/slow,3022,0,0
+1789195233058,27,[1x] GET /api/products,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,2312,210,2,2,http://localhost/api/products,27,0,0
+1789197005516,3004,[1x] GET /api/reports/slow,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,257,214,2,2,http://localhost/api/reports/slow,3004,0,1
+1789197009509,14,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,350,278,2,2,http://localhost/api/auth/login,14,0,2
+1789197017717,5,[1x] GET /api/health,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,233,208,2,2,http://localhost/api/health,5,0,0
+1789197026795,13,[1x] POST /api/auth/login,200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,350,278,2,2,http://localhost/api/auth/login,13,0,0
+1789197030641,4007,[1x] POST /api/reports/generate,200,OK,Этап 2 — 2x (двукратный запас) 3-1,text,true,,275,238,2,2,http://localhost/api/reports/generate,4006,0,0
+1789197042275,21,[1x] GET /api/products/{id},200,OK,Этап 2 — 2x (двукратный запас) 3-2,text,true,,400,212,1,1,http://localhost/api/products/9,21,0,0
+1789197053532,4,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,233,208,2,2,http://localhost/api/health,4,0,1
+1789197054760,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-2,text,false,,190,214,3,3,http://localhost/api/auth/profile,4,0,1
+1789197058740,16,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,229,258,3,3,http://localhost/api/orders,16,0,0
+1789197070976,11,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,2312,210,3,3,http://localhost/api/products,11,0,0
+1789197072478,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-3,text,false,,190,214,3,3,http://localhost/api/auth/profile,4,0,1
+1789197074966,10,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,2312,210,3,3,http://localhost/api/products,10,0,0
+1789197070449,7006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,275,238,3,3,http://localhost/api/reports/generate,7006,0,0
+1789197081281,13,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,354,210,3,3,http://localhost/api/orders/9,13,0,0
+1789197083032,13,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,350,278,3,3,http://localhost/api/auth/login,13,0,0
+1789197085293,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,233,208,3,3,http://localhost/api/health,5,0,0
+1789197087110,12,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,340,210,3,3,http://localhost/api/orders/5,12,0,0
+1789197087719,14,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,350,278,3,3,http://localhost/api/auth/login,14,0,0
+1789197091910,13,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,350,278,3,3,http://localhost/api/auth/login,13,0,0
+1789197096005,3006,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,257,214,3,3,http://localhost/api/reports/slow,3006,0,0
+1789197096498,2529,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,1511,215,3,3,http://localhost/api/reports/sales,2529,0,0
+1789197107569,3007,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,257,214,3,3,http://localhost/api/reports/slow,3007,0,0
+1789197109747,3006,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,257,214,3,3,http://localhost/api/reports/slow,3006,0,0
+1789197113183,12,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,412,212,3,3,http://localhost/api/products/4,12,0,0
+1789197119981,12,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,352,210,3,3,http://localhost/api/orders/7,12,0,0
+1789197121555,21,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,228,258,3,3,http://localhost/api/orders,21,0,2
+1789197125843,14,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,405,212,3,3,http://localhost/api/products/2,13,0,3
+1789197126274,10,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,2312,210,3,3,http://localhost/api/products,10,0,0
+1789197128991,3,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-1,text,false,,190,214,3,3,http://localhost/api/auth/profile,3,0,0
+1789197133033,2516,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,1511,215,3,3,http://localhost/api/reports/sales,2516,0,1
+1789197137290,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,233,208,3,3,http://localhost/api/health,5,0,0
+1789197140667,12,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,393,212,3,3,http://localhost/api/products/5,12,0,0
+1789197139957,2513,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,1511,215,3,3,http://localhost/api/reports/sales,2513,0,0
+1789197147886,23,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,228,258,3,3,http://localhost/api/orders,23,0,0
+1789197141871,7008,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,275,238,3,3,http://localhost/api/reports/generate,7008,0,0
+1789197157532,25,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,228,258,3,3,http://localhost/api/orders,24,0,0
+1789197162095,13,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,417,213,3,3,http://localhost/api/products/10,13,0,0
+1789197166877,14,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,350,278,3,3,http://localhost/api/auth/login,14,0,0
+1789197162616,5008,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,275,238,3,3,http://localhost/api/reports/generate,5008,0,0
+1789197169176,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,233,208,3,3,http://localhost/api/health,5,0,0
+1789197170400,10,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,360,210,3,3,http://localhost/api/orders/6,10,0,0
+1789197177990,15,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,350,278,3,3,http://localhost/api/auth/login,14,0,0
+1789197182780,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,233,208,3,3,http://localhost/api/health,5,0,2
+1789197182532,3007,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,257,214,3,3,http://localhost/api/reports/slow,3007,0,0
+1789197189761,22,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,228,258,3,3,http://localhost/api/orders,22,0,1
+1789197192055,11,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,351,210,3,3,http://localhost/api/orders/4,11,0,0
+1789197192439,14,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,2312,210,3,3,http://localhost/api/products,14,0,0
+1789197198487,2516,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,1494,215,3,3,http://localhost/api/reports/sales,2516,0,1
+1789197196453,5006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,275,238,3,3,http://localhost/api/reports/generate,5006,0,0
+1789197205291,12,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,400,212,3,3,http://localhost/api/products/9,12,0,0
+1789197207663,3006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,275,238,3,3,http://localhost/api/reports/generate,3006,0,0
+1789197210912,2517,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,1494,215,3,3,http://localhost/api/reports/sales,2517,0,0
+1789197213401,2517,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,1494,215,3,3,http://localhost/api/reports/sales,2517,0,0
+1789197222168,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-1,text,false,,190,214,3,3,http://localhost/api/auth/profile,5,0,0
+1789197225700,3007,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,257,214,3,3,http://localhost/api/reports/slow,3007,0,0
+1789197228943,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-3,text,false,,190,214,3,3,http://localhost/api/auth/profile,5,0,0
+1789197234897,6,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,233,208,3,3,http://localhost/api/health,6,0,0
+1789197241088,13,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,360,210,3,3,http://localhost/api/orders/6,13,0,0
+1789197242896,13,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,227,258,3,3,http://localhost/api/orders,13,0,0
+1789197244812,11,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,350,278,3,3,http://localhost/api/auth/login,11,0,0
+1789197246587,3,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-2,text,false,,190,214,3,3,http://localhost/api/auth/profile,3,0,1
+1789197256208,14,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,372,212,3,3,http://localhost/api/products/7,14,0,0
+1789197254546,3006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,275,238,3,3,http://localhost/api/reports/generate,3006,0,0
+1789197262282,12,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,2312,210,3,3,http://localhost/api/products,12,0,1
+1789197268060,13,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,2312,210,3,3,http://localhost/api/products,13,0,0
+1789197270259,3005,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,257,214,3,3,http://localhost/api/reports/slow,3005,0,1
+1789197273341,6,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,233,208,3,3,http://localhost/api/health,6,0,0
+1789197272732,2513,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,1505,215,3,3,http://localhost/api/reports/sales,2513,0,0
+1789197279620,22,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,228,258,3,3,http://localhost/api/orders,22,0,0
+1789197285462,6,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,233,208,3,3,http://localhost/api/health,6,0,0
+1789197283251,2517,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,1505,215,3,3,http://localhost/api/reports/sales,2517,0,0
+1789197287558,13,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,393,212,3,3,http://localhost/api/products/5,13,0,0
+1789197294249,3006,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,257,214,3,3,http://localhost/api/reports/slow,3006,0,0
+1789197299613,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,229,258,3,3,http://localhost/api/orders,24,0,0
+1789197298804,5007,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,275,238,3,3,http://localhost/api/reports/generate,5007,0,0
+1789197309392,2519,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,1504,215,3,3,http://localhost/api/reports/sales,2519,0,0
+1789197311026,6007,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,275,238,3,3,http://localhost/api/reports/generate,6007,0,2
+1789197314270,3005,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,257,214,3,3,http://localhost/api/reports/slow,3005,0,0
+1789197709197,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-3,text,false,,190,214,3,3,http://localhost/api/auth/profile,4,0,1
+1789197711923,3,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-1,text,false,,190,214,3,3,http://localhost/api/auth/profile,3,0,0
+1789197712517,11,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,350,278,3,3,http://localhost/api/auth/login,11,0,1
+1789197714609,9,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,393,212,3,3,http://localhost/api/products/5,9,0,0
+1789197718586,3007,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,257,214,3,3,http://localhost/api/reports/slow,3007,0,0
+1789197723633,15,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,2312,210,3,3,http://localhost/api/products,15,0,0
+1789197729334,13,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,350,278,3,3,http://localhost/api/auth/login,13,0,0
+1789197730037,13,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,381,212,3,3,http://localhost/api/products/8,13,0,0
+1789197736032,14,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,351,210,3,3,http://localhost/api/orders/4,14,0,0
+1789197745441,12,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,2312,210,3,3,http://localhost/api/products,12,0,0
+1789197740540,5007,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,275,238,3,3,http://localhost/api/reports/generate,5007,0,0
+1789197749141,4,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-2,text,false,,190,214,3,3,http://localhost/api/auth/profile,4,0,0
+1789197749741,13,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,2312,210,3,3,http://localhost/api/products,13,0,0
+1789197758207,14,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,364,211,3,3,http://localhost/api/orders/10,14,0,0
+1789197759456,12,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,352,210,3,3,http://localhost/api/orders/7,12,0,0
+1789197764865,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,233,208,3,3,http://localhost/api/health,5,0,0
+1789197765660,14,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,350,278,3,3,http://localhost/api/auth/login,14,0,0
+1789197766929,13,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,228,258,3,3,http://localhost/api/orders,13,0,0
+1789197767839,4,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,233,208,3,3,http://localhost/api/health,4,0,0
+1789197775929,3,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-1,text,false,,190,214,3,3,http://localhost/api/auth/profile,3,0,1
+1789197778400,3004,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,257,214,3,3,http://localhost/api/reports/slow,3004,0,1
+1789197777562,7004,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,275,238,3,3,http://localhost/api/reports/generate,7004,0,1
+1789197786020,3006,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,257,214,3,3,http://localhost/api/reports/slow,3006,0,0
+1789197786717,2517,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,1504,215,3,3,http://localhost/api/reports/sales,2517,0,0
+1789197794393,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,228,258,3,3,http://localhost/api/orders,24,0,0
+1789197802208,13,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,372,212,3,3,http://localhost/api/products/7,13,0,0
+1789197802923,14,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,366,210,3,3,http://localhost/api/orders/2,13,0,0
+1789197807127,11,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,2312,210,3,3,http://localhost/api/products,11,0,0
+1789197810509,12,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,350,278,3,3,http://localhost/api/auth/login,12,0,0
+1789197812731,3,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,233,208,3,3,http://localhost/api/health,3,0,0
+1789197807244,6006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,275,238,3,3,http://localhost/api/reports/generate,6006,0,0
+1789197817402,11,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,2312,210,3,3,http://localhost/api/products,11,0,0
+1789197819531,16,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,2312,210,3,3,http://localhost/api/products,16,0,0
+1789197825106,13,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,373,212,3,3,http://localhost/api/products/6,13,0,0
+1789197835291,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,228,258,3,3,http://localhost/api/orders,24,0,0
+1789197834545,3006,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,257,214,3,3,http://localhost/api/reports/slow,3006,0,0
+1789197843805,3005,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,275,238,3,3,http://localhost/api/reports/generate,3005,0,2
+1789197848731,4,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,233,208,3,3,http://localhost/api/health,4,0,2
+1789197852084,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-2,text,false,,190,214,3,3,http://localhost/api/auth/profile,5,0,0
+1789197853076,12,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,350,278,3,3,http://localhost/api/auth/login,12,0,0
+1789197853666,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,228,258,3,3,http://localhost/api/orders,24,0,2
+1789197860797,2518,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,1502,215,3,3,http://localhost/api/reports/sales,2518,0,0
+1789197864338,12,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,364,211,3,3,http://localhost/api/orders/10,12,0,0
+1789197867938,10,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,408,212,3,3,http://localhost/api/products/3,10,0,0
+1789197869942,13,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,350,278,3,3,http://localhost/api/auth/login,13,0,0
+1789197870887,6,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-2,text,false,,190,214,3,3,http://localhost/api/auth/profile,6,0,0
+1789197872002,3,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-3,text,false,,190,214,3,3,http://localhost/api/auth/profile,3,0,0
+1789197877310,2516,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,1502,215,3,3,http://localhost/api/reports/sales,2516,0,0
+1789197882501,11,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,354,210,3,3,http://localhost/api/orders/9,11,0,0
+1789197886170,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,227,258,3,3,http://localhost/api/orders,24,0,0
+1789197886717,10,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,364,211,3,3,http://localhost/api/orders/10,10,0,0
+1789197884279,4009,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,275,238,3,3,http://localhost/api/reports/generate,4009,0,0
+1789197901159,2518,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,1502,215,3,3,http://localhost/api/reports/sales,2518,0,0
+1789197903692,3006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,275,238,3,3,http://localhost/api/reports/generate,3006,0,0
+1789197905458,2517,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,1502,215,3,3,http://localhost/api/reports/sales,2517,0,0
+1789197910880,11,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,412,212,3,3,http://localhost/api/products/4,11,0,2
+1789197913856,12,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,2312,210,3,3,http://localhost/api/products,12,0,1
+1789197922238,10,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,350,278,3,3,http://localhost/api/auth/login,10,0,1
+1789197924177,11,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-3,text,false,,190,214,3,3,http://localhost/api/auth/profile,11,0,0
+1789197924564,13,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,352,210,3,3,http://localhost/api/orders/7,13,0,0
+1789197931078,12,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,2312,210,3,3,http://localhost/api/products,12,0,0
+1789197932034,7006,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,275,238,3,3,http://localhost/api/reports/generate,7006,0,0
+1789197939767,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,228,258,3,3,http://localhost/api/orders,24,0,0
+1789197944388,27,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,392,212,3,3,http://localhost/api/products/1,27,0,0
+1789197942055,3007,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,257,214,3,3,http://localhost/api/reports/slow,3007,0,0
+1789197948299,3,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,233,208,3,3,http://localhost/api/health,3,0,0
+1789197950985,27,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,350,278,3,3,http://localhost/api/auth/login,27,0,0
+1789197951682,12,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,400,212,3,3,http://localhost/api/products/9,12,0,0
+1789197955772,3008,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,257,214,3,3,http://localhost/api/reports/slow,3008,0,0
+1789197960137,21,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,227,258,3,3,http://localhost/api/orders,21,0,0
+1789197969309,12,[1x] GET /api/products,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,2312,210,3,3,http://localhost/api/products,12,0,0
+1789197969198,2517,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,1504,215,3,3,http://localhost/api/reports/sales,2517,0,0
+1789197972234,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,233,208,3,3,http://localhost/api/health,5,0,2
+1789197975814,11,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,350,278,3,3,http://localhost/api/auth/login,11,0,1
+1789197978569,3,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,233,208,3,3,http://localhost/api/health,3,0,0
+1789197986253,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-1,text,false,,190,214,3,3,http://localhost/api/auth/profile,5,0,0
+1789197987116,11,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,352,210,3,3,http://localhost/api/orders/1,11,0,1
+1789197986787,3005,[1x] GET /api/reports/slow,200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,257,214,3,3,http://localhost/api/reports/slow,3005,0,0
+1789197998998,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,233,208,3,3,http://localhost/api/health,5,0,0
+1789197999562,5,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-2,text,false,,190,214,3,3,http://localhost/api/auth/profile,5,0,0
+1789198006763,11,[1x] GET /api/products/{id},200,OK,Этап 3 — 3x (целевой запас) 4-3,text,true,,392,212,3,3,http://localhost/api/products/1,11,0,0
+1789198012766,2516,[1x] GET /api/reports/sales,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,1504,215,3,3,http://localhost/api/reports/sales,2516,0,0
+1789198016241,4007,[1x] POST /api/reports/generate,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,275,238,3,3,http://localhost/api/reports/generate,4007,0,0
+1789198022601,13,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,350,278,3,3,http://localhost/api/auth/login,13,0,0
+1789198023801,7,[1x] GET /api/auth/profile,401,Unauthorized,Этап 3 — 3x (целевой запас) 4-3,text,false,,190,214,3,3,http://localhost/api/auth/profile,7,0,0
+1789198026283,5,[1x] GET /api/health,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,233,208,3,3,http://localhost/api/health,5,0,0
+1789198028960,24,[1x] POST /api/orders,200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,227,259,3,3,http://localhost/api/orders,24,0,0
+1789198031587,29005554,[1x] GET /api/reports/sales,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Этап 3 — 3x (целевой запас) 4-3,text,false,,2711,0,3,3,http://localhost/api/reports/sales,0,0,0
+1789227040391,11,[1x] POST /api/auth/login,200,OK,Этап 3 — 3x (целевой запас) 4-2,text,true,,350,278,2,2,http://localhost/api/auth/login,11,0,1
+1789227041785,11,[1x] GET /api/orders/{id},200,OK,Этап 3 — 3x (целевой запас) 4-1,text,true,,360,210,1,1,http://localhost/api/orders/6,11,0,1
